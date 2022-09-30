@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"C:/Users/ssanc/gp2f4/codi","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/ssanc/gp2f4/vm","disabled":false,"__vagrantfile":true}}}
