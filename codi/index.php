@@ -1,5 +1,5 @@
 <?php
-    echo "Hola món<br>";
+    echo "Hola mon";
     echo "Som el grup04";
-    echo "Aquesta és l'activitat GP2F4A6.3"
+    echo "Aquesta es l'activitat GP2F4A6.3"
 ?>
