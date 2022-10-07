@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "debian/bullseye64"
   config.vm.hostname = "grup04.fjeclot04.net"
-  config.vm.synced_folder "/Users/ssanc/gp2f4/codi", "/var/www/html"
+  config.vm.synced_folder "/Users/raulc/gp2f4/codi", "/var/www/html"
   config.vm.network "public_network", use_dhcp_assigned_default_router: true
   config.vm.network "forwarded_port", guest: 80, host: 8000, protocol: "tcp"
   config.vm.network "forwarded_port", guest: 443, host: 8443, protocol: "tcp"
@@ -70,9 +70,15 @@ Vagrant.configure("2") do |config|
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
    config.vm.provision "shell", inline: <<-SHELL
-     apt-get update
-     apt-get install -y apache2
-     apt-get install -y php5-cli curl
-     curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+     sudo apt-get update -y
+     sudo apt-get upgrade -y
+     sudo apt-get install -y aptitude
+     sudo apt-get install -y net-tools
+     sudo apt-get install -y apache2 apache2-doc
+     sudo apt-get install -y libapache2-mod-php
+     sudo apt-get install -y php7.4
+     sudo apt-get install -y mariadb-server mariadb-client
+     sudo apt-get install -y php7.4-mysql
+     sudo apt-get install -y composer
    SHELL
 end
