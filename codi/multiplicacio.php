@@ -7,23 +7,23 @@
 		<?php
 			#Obtenció del primer operand
 			if ($_GET["op1"] =="") {
-				$operador1 = 0;
+				$operand1 = 0;
 			}
 			else{
-				$operador1 = $_GET["op1"];
+				$operand1 = $_GET["op1"];
 			}
 			#
 			#Obtenció del segon operand
 			if ($_GET["op2"] =="") {
-				$operador2 = 0;
+				$operand2 = 0;
 			}
 			else{
-				$operador2 = $_GET["op2"];
+				$operand2 = $_GET["op2"];
 			}
 			#
 			#Obtencio del resultat i mostrant el resultat
-			$resultat = $operador1 * $operador2;
-			echo "<p>El resultat de $operador1 * $operador2 és igual a $resultat</p>";			
+			$resultat = $operand1 * $operand2;
+			echo "<p>El resultat de $operand1 * $operand2 és igual a $resultat</p>";			
 		?>
 		<a href="multiplicacio.html">Torna a la pàgina anterior</a>
 	</body>
