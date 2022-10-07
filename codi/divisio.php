@@ -1,9 +1,9 @@
 <html>
 <head>
-	<title>EXECUCIÓ DE LA SUMA DE 2 OPERANDS</title>
+	<title>EXECUCIÓ DE LA DIVISIÓ DE 2 OPERANDS</title>
 </head>
 	<body>
-		<p><u>RESULTAT DE L'OPERACIÓ SUMA DEL 2 OPERANDS INTRODUITS AL FORMULARI</u></p>		
+		<p><u>RESULTAT DE L'OPERACIÓ DIVISIÓ DEL 2 OPERANDS INTRODUITS AL FORMULARI</u></p>		
 		<?php
 			#Obtenció del primer operand
 			if ($_GET["op1"] =="") {
