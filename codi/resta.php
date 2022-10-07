@@ -7,18 +7,18 @@
 		<?php
 			#Obtenció del primer operand
 			if ($_GET["op1"] =="") {
-				$operand1 = 0;
+				$operador1 = 0;
 			}
 			else{
-				$operand1 = $_GET["op1"];
+				$operador1 = $_GET["op1"];
 			}
 			#
 			#Obtenció del segon operand
 			if ($_GET["op2"] =="") {
-				$operand2 = 0;
+				$operador2 = 0;
 			}
 			else{
-				$operand2 = $_GET["op2"];
+				$operador2 = $_GET["op2"];
 			}
 			#
 			#Obtencio del resultat i mostrant el resultat
