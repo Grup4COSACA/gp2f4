@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>EXECUCIÓ DE LA SUMA DE 2 OPERANDS</title>
+	<title>EXECUCIÓ DE LA SUMA DE 2 OPERADORS</title>
 </head>
 	<body>
 		<p><u>RESULTAT DE L'OPERACIÓ SUMA DEL 2 OPERANDS INTRODUITS AL FORMULARI</u></p>		
