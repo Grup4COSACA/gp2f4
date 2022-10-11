@@ -8,12 +8,12 @@
 	</head>
 	<body>
 		<p><b>CALCUALDORA ARITMÈTICA</b></p>
-		<a href="suma.html">a) Suma de 2 operands</a>
+		<a href="suma.html">a) Suma de 2 operadors</a>
 		<p><b>CALCUALDORA ARITMÈTICA</b></p>
-		<a href="resta.html">b) Resta de 2 operands</a>
+		<a href="resta.html">b) Resta de 2 operadors</a>
 		<p><b>CALCUALDORA ARITMÈTICA</b></p>
-		<a href="multiplicacio.html">c) Multiplicacio de 2 operands</a>
+		<a href="multiplicacio.html">c) Multiplicacio de 2 operadors</a>
 		<p><b>CALCUALDORA ARITMÈTICA</b></p>
-		<a href="divisio.html">d) Divisio de 2 operands</a>
+		<a href="divisio.html">d) Divisio de 2 operadors</a>
 	</body>
 <html>
