@@ -3,7 +3,7 @@
 	<title>EXECUCIÓ DE LA RESTA DE 2 OPERANDS</title>
 </head>
 	<body>
-		<p><u>RESULTAT DE L'OPERACIÓ RESTA DEL 2 OPERANDS INTRODUITS AL FORMULARI</u></p>		
+		<p><u>RESULTAT DE L'OPERACIÓ RESTA DEL 2 OPERADORS INTRODUITS AL FORMULARI</u></p>		
 		<?php
 			#Obtenció del primer operand
 			if ($_GET["op1"] =="") {
