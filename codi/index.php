@@ -7,6 +7,7 @@
 		</title>
 	</head>
 	<body>
+		<h2>Grup 04 del project de DevOps i Cloud Computing</h2>
 		<p><b>CALCUALDORA ARITMÈTICA</b></p>
 		<a href="suma.html">a) Suma de 2 operadors</a>
 		<p><b>CALCUALDORA ARITMÈTICA</b></p>

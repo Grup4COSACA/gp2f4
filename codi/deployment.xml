@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.zend.com/server/deployment-descriptor/1.0" version="1.0">
+    <type>application</type>
+    <name>calculadora</name>
+    <summary>Calculadora aritmètica i de subxarxes</summary>
+    <description>Calcula:+,-,*,/,IPs de subxarxa,IPs broadcast,IPs de hosts</description>
+    <version>
+        <release>1.0</release>
+    </version>
+    <appdir></appdir>
+    <docroot></docroot>
+    <dependencies>
+        <required>
+            <php>
+                <min>7.3.0</min>
+            </php>
+            <directive>
+                <name>safe_mode</name>
+                <equals>off</equals>
+            </directive>
+        </required>
+    </dependencies>
+</package>
